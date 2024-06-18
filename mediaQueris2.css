@@ -1,0 +1,102 @@
+* {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  gap: 3px;
+  padding: 20px;
+  height: 100vh;
+}
+
+div {
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  #centerTex {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    gap: 3px;
+  }
+
+  #blue {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+  }
+  #red {
+    background-color: red;
+  }
+
+  #green {
+    background-color: green;
+  }
+  #purple {
+    background-color: purple;
+  }
+
+  #grey {
+    background-color: grey;
+  }
+}
+@media only screen and (min-width: 600px) {
+  #centerTex {
+    display: flex;
+
+    padding: 0%;
+    gap: 3px;
+  }
+
+  #blue {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+  }
+  #red {
+    background-color: red;
+  }
+
+  #green {
+    background-color: green;
+  }
+  #purple {
+    background-color: purple;
+  }
+
+  #grey {
+    background-color: grey;
+  }
+}
+@media only screen and (min-width: 768px) {
+
+    #centerTex{display: flex;
+        
+        padding-left: 20px;
+        padding-right:   20px;
+        gap: 3px;
+    }
+  #blue {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+  }
+  #red {
+    background-color: red;
+  }
+
+  #green {
+    background-color: green;
+    
+  }
+  #purple {
+    background-color: purple;
+  }
+
+  #grey {
+    background-color: grey;
+  }
+}
